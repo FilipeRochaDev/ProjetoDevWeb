@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clínica Sistematização DevWeb</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">CLÍNICA SISTEMATIZAÇÃO DEV WEB</div>
+        <nav>
+            <a href="#especialidades">ESPECIALIDADES</a>
+            <a href="#procedimentos">PROCEDIMENTOS</a>
+            <a href="#exames">EXAMES</a>
+            <a href="#laboratorio">LABORATÓRIO</a>
+            <a href="#home">HOME</a>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h1>Bem-vindo à Clínica Sistematização DevWeb</h1>
+        <p>Oferecemos os melhores serviços de saúde para você e sua família.</p>
+        <p>Agende sua consulta e cuide da sua saúde conosco!</p>
+    </section>
+
+    <section id="especialidades">
+        <h2>Nossas Especialidades</h2>
+        <div class="especialidade-container">
+            <div class="especialidade">
+                <h3>Cardiologia</h3>
+                <p>Cuide da saúde do seu coração com nossos especialistas.</p>
+            </div>
+            <div class="especialidade">
+                <h3>Dermatologia</h3>
+                <p>Tratamentos para cuidar da sua pele e bem-estar.</p>
+            </div>
+            <div class="especialidade">
+                <h3>Ortopedia</h3>
+                <p>Recupere sua mobilidade e qualidade de vida.</p>
+            </div>
+            <div class="especialidade">
+                <h3>Ginecologia</h3>
+                <p>Saúde da mulher em todas as fases da vida.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="procedimentos">
+        <h2>Procedimentos</h2>
+        <ul>
+            <li>Eletrocardiograma</li>
+            <li>Teste Ergométrico</li>
+            <li>Ultrassonografia</li>
+            <li>Raio-x</li>
+        </ul>
+    </section>
+
+    <section id="exames">
+        <h2>Exames</h2>
+        <ul>
+            <li>Hemograma</li>
+            <li>Colesterol</li>
+            <li>Glicemia</li>
+            <li>Urina</li>
+        </ul>
+    </section>
+
+    <section id="laboratorio">
+        <h2>Laboratório</h2>
+        <p>Realizamos diversos exames laboratoriais com rapidez e precisão.</p>
+        <p>Resultados confiáveis para auxiliar no seu diagnóstico.</p>
+    </section>
+
+    <section id="equipe">
+        <h2>Nossa Equipe Médica</h2>
+
+        <div class="medico">
+            <img src="./assets/images/Hannibal_2.webp" alt="Cardiologista">
+            <h3>Dr. Hannibal</h3>
+            <p>Cardiologista</p>
+        </div>
+
+        <div class="medico">
+            <img src="./assets/images/greys-anatomy.jpg" alt="Dermatologista">
+            <h3>Dr. Grey</h3>
+            <p>Dermatologista</p>
+        </div>
+
+        <div class="medico">
+            <img src="./assets/images/house.png" alt="Ortopedista">
+            <h3>Dr. House</h3>
+            <p>Ortopedista</p>
+        </div>
+
+        <div class="medico">
+            <img src="./assets/images/patch.jpg" alt="Ginecologista">
+            <h3>Dr. Patch Adams</h3>
+            <p>Ginecologista</p>
+        </div>
+    </section>
+
+    <section id="inscricao">
+        <h2>Inscreva-se para saber mais</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="cidade">Cidade:</label>
+            <input type="text" id="cidade" name="cidade"><br><br>
+
+            <label for="estado">Estado:</label>
+            <select id="estado" name="estado">
+                <option value="">Selecione...</option>
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AP">AP</option>
+                <option value="AM">AM</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MT">MT</option>
+                <option value="MS">MS</option>
+                <option value="MG">MG</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PR">PR</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SP">SP</option>
+                <option value="SE">SE</option>
+                <option value="TO">TO</option>
+            </select><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer>
+        <p>Contato: (61) 1234-5678</p>
+    </footer>
+</body>
+</html>
